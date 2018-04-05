@@ -62,4 +62,4 @@ Gif: <img src="https://github.com/nicoleio712/Week8/blob/master/CSRF_red.gif" wi
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+The Session Hijacking attack took some mental organization, especially since it required the use of two browsers. The SQLi attack also took some Googling to understand that the line of code was blocking access to the database by SLEEP()-ing instead of executing WHERE. Once this was clear, it became more obvious that the ' OR SLEEP(5)=0--' code went in the url in place of the ID.
